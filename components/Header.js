@@ -17,7 +17,7 @@ const Header = () => {
           className='w-full h-full object-cover bg-transparent border-none'
         />
       </div>
-      <nav className='hidden lg:flex flex-grow justify-between items-center px-3 list-none whitespace-nowrap'>
+      <nav className='hidden lg:flex max-w-[60rem] flex-grow justify-between items-center px-3 list-none whitespace-nowrap'>
         <li className='cursor-pointer hover:text-blue-500'>For Buyers</li>
         <li className='cursor-pointer hover:text-blue-500'>For Owners</li>
         <li className='cursor-pointer hover:text-blue-500'>For Dealers / Builders</li>
